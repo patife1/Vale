@@ -15,35 +15,37 @@ body {
 
 /* Cabeçalho */
 header {
-    background-color: #0066cc;
+    background-color: #c3dbf3;
     color: white;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 header .logo img {
-    width: 120px;
+    width: 300px;
     height: auto;
+    
 }
 
 header nav ul {
     display: flex;
     justify-content: center;
     list-style: none;
+
 }
 
 header nav ul li {
-    margin: 0 15px;
+    margin: 0 10px;
 }
 
 header nav ul li a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-weight: bold;
 }
 
 /* Banner */
 .banner {
-    background-color: #004c99;
+    background-color: #000000;
     color: white;
     text-align: center;
     padding: 60px 20px;
@@ -60,8 +62,8 @@ header nav ul li a {
 }
 
 .banner .btn {
-    background-color: #ff9900;
-    color: white;
+    background-color: #c3dbf3;
+    color: rgb(0, 0, 0);
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
